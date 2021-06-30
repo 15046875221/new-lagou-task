@@ -7,7 +7,7 @@ module.exports = class extends Generator {
                 type: 'input',
                 name: 'name',
                 message: 'your project name',
-                develop: this.appname
+                default: this.appname
             }
         ]).then(answers => {
             this.answers = answers
