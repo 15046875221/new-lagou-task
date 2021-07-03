@@ -35,7 +35,8 @@ module.exports = {
                 use: {
                     loader: 'url-loader',
                     options: {
-                        limit: 10 * 1024 // 10 KB
+                        limit: 10 * 1024, // 10 KB
+                        esModule: false
                     }
                 }
             },
@@ -69,6 +70,9 @@ module.exports = {
               viewport: 'width=device-width'
             },
             // BASE_URL: './public',
+            templateParameters: {
+                BASE_URL: '/',
+            },
             template: './public/index.html'
           }),
 

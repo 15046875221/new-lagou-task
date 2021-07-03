@@ -19,6 +19,7 @@
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "4",
     "less": "^4.1.1",
     "less-loader": "7.3.0",
